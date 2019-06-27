@@ -12,7 +12,7 @@ $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 body {
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +38,7 @@ a {
   width: 1000px;
   color: #bbb;
   margin-left: -500px;
-  font-size: 12px;
+  font-size: 13px;
   text-align: right;
   @media screen and (max-width: 1024px) {
     display: none;
@@ -54,7 +54,7 @@ a {
   left: 50%;
   color: #bbb;
   margin-left: -500px;
-  font-size: 12px;
+  font-size: 13px;
   text-align: right;
   @media screen and (max-width: 1024px) {
     display: none;
@@ -176,7 +176,7 @@ a {
             color: #000;
           }
           font-family: "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", $font-family;
-          font-size: 14px;
+          font-size: 15px;
           line-height: 22px;
           &:hover {
             color: #e8e8e8;
@@ -222,7 +222,7 @@ a {
   }
   section {
     overflow: hidden;
-    padding: 10px 15px;
+    padding: 10px 14px;
   }
   .section-hd {
     position: relative;
@@ -313,7 +313,7 @@ a {
     em {
       display: inline-block;
       font-family: Menlo, $font-family;
-      font-size: 12px;
+      font-size: 13px;
       line-height: 14px;
       border: 1px solid $color-gray;
       @include border-radius(3px);
@@ -323,7 +323,7 @@ a {
     }
     strong {
       font-family: $font-family;
-      font-size: 12px;
+      font-size: 13px;
       line-height: 14px;
       border: 1px solid #f3f3f3;
       @include border-radius(3px);
@@ -348,7 +348,7 @@ a {
   border-radius: 3px;
   color: $color-green;
   font-family: Menlo, $font-family;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
   text-align: center;
   &:hover {
